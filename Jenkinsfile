@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                echo 'Checkout stage'
+                echo 'Checkout stage MS 123'
             }
         }
         stage("Build") {
